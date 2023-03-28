@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
 
 - Choose a directory
 - Open a Terminal
-- write: git clone https://github.com/ezraermy/ezra_portfolio/edit/portfolio_mobile_projects
+- write: git clone git@github.com:ezraermy/math-magicians.git
 - get into to directory "portfolio_mobile_mainpage"
 - write: npm install
 
@@ -140,7 +140,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ezraermy/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
