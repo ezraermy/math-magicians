@@ -22,6 +22,7 @@
   align-items: center;
   padding-right: 10px;
   font-size: 28px;
+  background: lightgray;
 }
 
 .autput {
@@ -30,11 +31,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: right;
 }
 
 input[type="text" i] {
   text-align: right;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  background: lightgray;
 }
 
 .buttons {
