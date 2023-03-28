@@ -32,7 +32,7 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-**[Todo List]** This simple calculator is designed to perform basic arithmetic calculations quickly and easily. With its easy-to-use interface and straightforward functionality, you'll be able to add, subtract, multiply, and divide numbers in no time.
+**[Math Magicians]** This simple calculator is designed to perform basic arithmetic calculations quickly and easily. With its easy-to-use interface and straightforward functionality, you'll be able to add, subtract, multiply, and divide numbers in no time.
 
 ## 🛠 Built With <a name="built-with"></a>
 
