@@ -3,11 +3,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Create our Button component as a functional component.
-const Button = ({ label, className }) => (
+const Button = ({ label, onClick, className }) => (
   <input
     type="button"
     value={label}
     className={className}
+    onClick={onClick}
   />
 );
 
@@ -15,6 +16,7 @@ const Button = ({ label, className }) => (
 Button.propTypes = {
   label: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 // Export our button component.
