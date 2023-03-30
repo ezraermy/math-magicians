@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import Quotes from './quotes';
 import Title from './title';
 import calculate from '../logic/calculate';
 import Button from './button';
@@ -50,7 +49,6 @@ const MyCalc = () => {
         <Button label="." onClick={() => handleClick('.')} />
         <Button label="=" onClick={() => handleClick('=')} className="equals" />
       </div>
-      <Quotes />
     </div>
 
   );
