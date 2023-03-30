@@ -50,6 +50,7 @@ const MyCalc = () => {
         <Button label="=" onClick={() => handleClick('=')} className="equals" />
       </div>
     </div>
+
   );
 };
 
