@@ -1,15 +1,15 @@
 .quotes-box {
   padding: 16px;
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background: linear-gradient(to bottom, rgba(252, 156, 23, 1) 0%, rgba(247, 126, 27, 1) 100%);
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .quotes-box .text {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
