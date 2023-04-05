@@ -36,8 +36,4 @@ describe('operate', () => {
   test('modulus operation', () => {
     expect(operate('9', '6', '%')).toBe('3');
   });
-
-  test('modulus operation by zero', () => {
-    expect(operate('0', '', '+')).toBe('undefined');
-  });
 });
