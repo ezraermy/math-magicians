@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders a button with the correct label and class 1`] = `
+<input
+  class="btn"
+  type="button"
+  value="Click me!"
+/>
+`;

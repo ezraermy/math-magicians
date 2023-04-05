@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculate returns an empty object for an unknown button 1`] = `
+Object {
+  "next": null,
+  "operation": "#",
+  "total": "8",
+}
+`;
+
+exports[`calculate returns an empty object for the "AC" button 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`calculate updates the "next" value correctly for "+/-" button 1`] = `
+Object {
+  "next": "-5",
+  "operation": "+",
+}
+`;
+
+exports[`calculate updates the "next" value correctly for a "." button 1`] = `
+Object {
+  "next": "5.",
+  "operation": "+",
+}
+`;
+
+exports[`calculate updates the "next" value correctly for a "0" button 1`] = `
+Object {
+  "next": "50",
+  "operation": "+",
+}
+`;
+
+exports[`calculate updates the "next" value correctly for a number button 1`] = `
+Object {
+  "next": "56",
+  "operation": "+",
+}
+`;
+
+exports[`calculate updates the "operation" value correctly when pressing "=" 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "8",
+}
+`;
+
+exports[`calculate updates the "total" value correctly for an operation button 1`] = `
+Object {
+  "operation": "-",
+  "total": "5",
+}
+`;

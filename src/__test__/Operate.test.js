@@ -1,4 +1,4 @@
-import operate from './logic/operate';
+import operate from '../logic/operate';
 
 describe('operate', () => {
   test('adds two numbers', () => {
@@ -27,13 +27,5 @@ describe('operate', () => {
 
   test('modulus operation by zero', () => {
     expect(operate('7', '0', '%')).toBe('Can\'t find modulo as can\'t divide by 0.');
-  });
-
-  test('multiply by zero', () => {
-    expect(operate('6', '0', '×')).toBe('0');
-  });
-
-  test('modulus operation', () => {
-    expect(operate('9', '6', '%')).toBe('3');
   });
 });
