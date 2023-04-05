@@ -28,4 +28,16 @@ describe('operate', () => {
   test('modulus operation by zero', () => {
     expect(operate('7', '0', '%')).toBe('Can\'t find modulo as can\'t divide by 0.');
   });
+
+  test('multiply by zero', () => {
+    expect(operate('6', '0', '×')).toBe('0');
+  });
+
+  test('modulus operation', () => {
+    expect(operate('9', '6', '%')).toBe('3');
+  });
+
+  test('modulus operation by zero', () => {
+    expect(operate('0', '', '+')).toBe('undefined');
+  });
 });
