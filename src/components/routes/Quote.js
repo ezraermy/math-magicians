@@ -1,4 +1,4 @@
-import Quotes from '../quotes';
+import Quotes from '../Quotes';
 
 const Quote = () => (
   <div className="quotes">

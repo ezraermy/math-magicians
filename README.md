@@ -68,50 +68,52 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to:
-- Install Git
-- Install NPM
-- Set A project with webpack
-- Have working browser
-- Good internet connection
-- Install a code editor like Visual Studio Code
-- Install Live Server plugging in Visual Studio Code
+In order to run this project you need the following tools:
+- Node.js in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- Choose a directory
-- Open a Terminal
-- write: git clone git@github.com:ezraermy/math-magicians.git
-- get into to directory "portfolio_mobile_mainpage"
-- write: npm install
+```sh
+  cd your-prefered-folder
+  
+  git clone https://github.com/Jolak5/Math-Magicians.git
+```
 
 ### Install
 
-Install this project with webpack:
-- Initialize your project and install webpack
-- Add HTML to your webpack.config.js
-- Add CSS to your webpack.config.js
-- On your terminal run 'npm run dev' to make sure everything is working fine.
+- Install this project with:
 
-Install this project with linters:
+```sh
+  cd Math-Magicians
 
-- On your branch create .github/workflows/linters.yml
-- Do not make any changes in config files
-- Create .gitignore/ and instert node_modules/
-- On the terminal run npm install --save-dev hint@7.x
-- Copy .hintrc to the root directory of your project.
-- Run npx hint .
-- Run npx eslint .
-- Fix linter errors.
+  npm install or npm i
+```
+
+- Run build for prodction:
+```
+  npm run build
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-- Open the project by launching the Live Server plugging in visual studio code
+```sh
+  npm start
 
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
