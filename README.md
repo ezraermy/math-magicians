@@ -59,6 +59,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+[Live link](https://ezra-math-magicians.onrender.com/)
 
 <!-- GETTING STARTED -->
 
